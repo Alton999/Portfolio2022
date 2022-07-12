@@ -92,7 +92,7 @@ export default function Home() {
 							"Prototype methods"
 						]}
 						route="/"
-						imageRef="UserInteractionProject/iphoneRenderWithBg.svg"
+						imageRef="UserInteractionProject/iphoneRender.svg"
 					/>
 					<ProjectCard
 						projectTitle="Nanoresonance website design"

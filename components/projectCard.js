@@ -30,7 +30,7 @@ const projectCard = ({ projectTitle, skills, subject, route, imageRef }) => {
 					{/* Button container */}
 					<div className={styles.buttonContainer}>
 						{/* Subject or Role text */}
-						<p>{subject}</p>
+						{/* <p>{subject}</p> */}
 						<Link href={route}>
 							<a className={styles.viewProjButton}>
 								<span>View Project</span>
