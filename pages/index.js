@@ -83,7 +83,11 @@ export default function Home() {
 							"Reframing Experience",
 							"AR/VR implementation"
 						]}
+<<<<<<< Updated upstream
 						route="/ccwmProject"
+=======
+						route="/project_pages/ccwmProject"
+>>>>>>> Stashed changes
 						imageRef="UserExperienceProject/CCWM.jpg"
 					/>
 					<ProjectCard
