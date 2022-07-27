@@ -51,6 +51,7 @@
 .listSkills {
 	margin: 0;
 	display: flex;
+	padding: 0;
 	justify-content: center;
 	color: rgba(241, 196, 15, 1);
 	flex-direction: row;
@@ -74,6 +75,9 @@
 	align-items: center;
 	color: white;
 	height: 10vh;
+	&:hover{
+		cursor: pointer;
+	}
 	p {
 		margin-top: 0;
 		font-weight: 500;
@@ -101,22 +105,44 @@
 	}
 }
 
+@include laptop() {
+	.container {
+		width: 90%;
+	}
+	.landing {
+		section:first-child {
+			margin-right: 50px;
+			width: 80%;
+		}
+		.title {
+			font-size: 2em;
+		}
+		.bodyText {
+			font-size: 1.1em;
+		}
+	}
+}
+
 @include mobile() {
+	.afterProj {
+		height: 5vh;
+	}
 	.container {
 		width: 100%;
 	}
 	.landing {
-		flex-direction: column;
+		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: center;
 	}
 	.landing {
 		section:first-child {
-			margin-right: 0;
-			width: 100%;
+			margin: 0;
+			width: 90%;
 		}
 	}
 	.listSkills {
+		font-size: 1.2em;
 		li {
 			text-align: center;
 		}
